@@ -1,14 +1,19 @@
 {
-	"users":[
-		{
-			"id" : "1",
-			"firstname": "John",
-			"lastname": "Doe"
-		},
-		{
-			"id" : "2",
-			"firstname": "Bob",
-			"lastname": "Smith"
-		}
-	]
+	"users":{
+			"msisdn" : "TESTmsisdn",
+			"cns": "TESTcns",
+			"mcc": "TESTmcc",
+			"mnc": "TESTmnc",
+			"name": "TESTname",
+			"synonym": "TESTsynonym",
+			"country": "TESTcountry",
+			"location": "TESTlocation",
+			"comment": "TESTcomment",
+			"begin_date": "2007-02-09T00:00:00Z",
+			"country_id": 11,
+			"location_id": 22,
+			"id": 33,
+			"number": "0987654321",
+			"oapi_ids": ["11111", "22222"],
+	},
 }
