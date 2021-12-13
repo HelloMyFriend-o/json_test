@@ -1,5 +1,14 @@
 {
-	"name": "Mark",
-	"age": 33,
-	"surname": "Petrov"
+	"users":[
+		{
+			"id" : "1",
+			"firstname": "John",
+			"lastname": "Doe"
+		},
+		{
+			"id" : "2",
+			"firstname": "Bob",
+			"lastname": "Smith"
+		}
+	]
 }
