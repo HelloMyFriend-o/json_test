@@ -1,5 +1,5 @@
 {
-	"users":{
+	"123":{
 			"msisdn" : "TESTmsisdn",
 			"cns": "TESTcns",
 			"mcc": "TESTmcc",
@@ -15,5 +15,22 @@
 			"id": 33,
 			"number": "0987654321",
 			"oapi_ids": ["11111", "22222"]
+	},
+	"456":{
+			"msisdn" : "msisdnTEST",
+			"cns": "cnsTEST",
+			"mcc": "mccTEST",
+			"mnc": "mncTEST",
+			"name": "nameTEST",
+			"synonym": "synonymTEST",
+			"country": "countryTEST",
+			"location": "locationTEST",
+			"comment": "commentTEST",
+			"begin_date": "2007-02-09T00:00:00Z",
+			"country_id": 44,
+			"location_id": 55,
+			"id": 66,
+			"number": "1234567890",
+			"oapi_ids": ["33333", "44444"]
 	}
 }
