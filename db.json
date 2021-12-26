@@ -1,57 +1,69 @@
 {
-	"123":{
-			"msisdn" : "TESTmsisdn",
-			"cns": "TESTcns",
-			"mcc": "TESTmcc",
-			"mnc": "TESTmnc",
-			"name": "TESTname",
-			"synonym": "TESTsynonym",
-			"country": "TESTcountry",
-			"location": "TESTlocation",
-			"comment": "TESTcomment",
-			"begin_date": "2007-02-09T00:00:00Z",
-			"country_id": 11,
-			"location_id": 22,
-			"id": 33,
-			"number": "0987654321",
-			"oapi_ids": ["11111", "22222"]
-	},
-	"456":{
-			"msisdn" : "msisdnTEST",
-			"cns": "cnsTEST",
-			"mcc": "mccTEST",
-			"mnc": "mncTEST",
-			"name": "nameTEST",
-			"synonym": "synonymTEST",
-			"country": "countryTEST",
-			"location": "locationTEST",
-			"comment": "commentTEST",
-			"begin_date": "2007-02-09T00:00:00Z",
-			"country_id": 44,
-			"location_id": 55,
-			"id": 66,
-			"number": "1234567890",
-			"oapi_ids": ["33333", "44444"]
-	},
-	"1":{
-			"task_number" : "1111"
-	},
-	"2":{
-			"task_number" : "2222"
-	},
-	"3":{
-			"task_number" : "3333"
-	},
-	"1111":{
-			"records" : 100,
-			"status": "running"
-	},
-	"2222":{
-			"records" : 200,
-			"status": "completed"
-	},
-	"3333":{
-			"records" : 300,
-			"status": "zipped"
-	}
+  "directory": {
+    "123": {
+      "msisdn": "TESTmsisdn",
+      "cns": "TESTcns",
+      "mcc": "TESTmcc",
+      "mnc": "TESTmnc",
+      "name": "TESTname",
+      "synonym": "TESTsynonym",
+      "country": "TESTcountry",
+      "location": "TESTlocation",
+      "comment": "TESTcomment",
+      "begin_date": "2007-02-09T00:00:00Z",
+      "country_id": 11,
+      "location_id": 22,
+      "id": 33,
+      "number": "0987654321",
+      "oapi_ids": [
+        "11111",
+        "22222"
+      ]
+    },
+    "456": {
+      "msisdn": "msisdnTEST",
+      "cns": "cnsTEST",
+      "mcc": "mccTEST",
+      "mnc": "mncTEST",
+      "name": "nameTEST",
+      "synonym": "synonymTEST",
+      "country": "countryTEST",
+      "location": "locationTEST",
+      "comment": "commentTEST",
+      "begin_date": "2007-02-09T00:00:00Z",
+      "country_id": 44,
+      "location_id": 55,
+      "id": 66,
+      "number": "1234567890",
+      "oapi_ids": [
+        "33333",
+        "44444"
+      ]
+    }
+  },
+  "task_number": {
+    "1": {
+      "task_number": "1111"
+    },
+    "2": {
+      "task_number": "2222"
+    },
+    "3": {
+      "task_number": "3333"
+    }
+  },
+  "task_status": {
+    "1111": {
+      "records": 100,
+      "status": "running"
+    },
+    "2222": {
+      "records": 200,
+      "status": "completed"
+    },
+    "3333": {
+      "records": 300,
+      "status": "zipped"
+    }
+  }
 }
